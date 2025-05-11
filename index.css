@@ -1,0 +1,18 @@
+body{
+    background-color: papayawhip;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    margin: 2rem;
+}
+
+h1{
+    text-align: center;
+}
+
+#nav1{
+    border-radius: 15px;
+}
+
+#nav1 .navbar-nav >*{
+    margin-right: 3rem;
+}
