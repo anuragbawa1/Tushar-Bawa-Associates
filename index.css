@@ -1,18 +1,30 @@
-body{
-    background-color: papayawhip;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: brown;
-    margin: 2rem;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    text-align: center;
+.topbar{
+    height: 5vh;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
 }
 
-#nav1{
-    border-radius: 15px;
+a{
+    height: 100%;
+    margin: auto;
+    width: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+
 }
 
-#nav1 .navbar-nav >*{
-    margin-right: 3rem;
+a:hover{
+    color: white;
+    background-color: cornflowerblue;
 }
